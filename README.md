@@ -13,7 +13,7 @@
 
 **2025.04.29**
 
-- The paper "Open-Vocabulary Fine-Grained Hand Action Detection" has been accepted by the 34th International Joint Conference on Artificial Intelligence (IJCAI-25). We will release the related code soon.
+- The paper "Open-Vocabulary Fine-Grained Hand Action Detection" has been accepted by the 34th International Joint Conference on Artificial Intelligence (IJCAI-25). We will release the related code soon and provide the Appendix in the official repository.
 
 
 ## :rocket: Introduction

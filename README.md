@@ -39,7 +39,7 @@ Open-FGHA is a simple yet strong open-vocabulary fine-grained hand action detect
 
 
 ## :sparkles: Data preparation
-The FHA-Kitchens OVD benchmark is reconstructed from the publicly available FHA-Kitchens benchmark. FHA-Kitchens OVD data can be downloaded [here](https://drive.google.com/drive/folders/1ZBD8GnhPt3kgWuyzrz_hTeOk4lZdNpGP?usp=drive_link) and the annotation files can be downloaded from [here](https://drive.google.com/drive/folders/1mgb1yq9uYEEMKcuUXQb99WGfQpM70Pnr?usp=drive_link)
+The FHA-Kitchens OVD benchmark is reconstructed from the publicly available FHA-Kitchens benchmark. FHA-Kitchens OVD data can be downloaded [here](https://drive.google.com/drive/folders/1ZBD8GnhPt3kgWuyzrz_hTeOk4lZdNpGP?usp=drive_link), the annotation files and Appendix can be downloaded from [here](https://drive.google.com/drive/folders/1mgb1yq9uYEEMKcuUXQb99WGfQpM70Pnr?usp=drive_link)
 
 
 

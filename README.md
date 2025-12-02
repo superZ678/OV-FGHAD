@@ -51,6 +51,7 @@ This project is for research purposes only. For further questions, please contac
 
 
 ## :pushpin: Citation
+```bibtex
 @inproceedings{ijcai2025p276,
   title     = {Open-Vocabulary Fine-Grained Hand Action Detection},
   author    = {Zhe, Ting and Han, Mengya and Hao, Xiaoshuai and Luo, Yong and He, Zheng and Cai, Xiantao and Zhang, Jing},
@@ -65,4 +66,5 @@ This project is for research purposes only. For further questions, please contac
   doi       = {10.24963/ijcai.2025/276},
   url       = {https://doi.org/10.24963/ijcai.2025/276},
 }
+```
 

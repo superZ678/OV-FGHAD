@@ -1,11 +1,11 @@
 <h1 align="center"> Open-Vocabulary Fine-Grained Hand Action Detection </h1>
 
 <p align="center">
-  <a href="#news">News</a> |
-  <a href="#abstract">Abstract</a> |
-  <a href="#overview">Overview</a> |
-  <a href="#model zoo">Model Zoo</a> |
-   <a href="#citation">Citation</a> |
+  <a href="#News">News</a> |
+  <a href="#Abstract">Abstract</a> |
+  <a href="#Overview">Overview</a> |
+  <a href="#Data preparation">Data preparation</a> |
+   <a href="#Citation">Citation</a> |
 </p>
 
 
@@ -13,7 +13,7 @@
 
 **2025.04.29**
 
-- The paper "Open-Vocabulary Fine-Grained Hand Action Detection" has been accepted by the 34th International Joint Conference on Artificial Intelligence (IJCAI-25). We will release the related code soon and provide the Appendix in the official repository.
+- The paper "Open-Vocabulary Fine-Grained Hand Action Detection" has been accepted by the 34th International Joint Conference on Artificial Intelligence (IJCAI-25). We will release the data and related code soon and provide the Appendix in the official repository.
 
 
 ## :rocket: Introduction
@@ -36,7 +36,12 @@ Overview of the OV-FGHAD. (a) Detection performance of existing representative f
 
 Open-FGHA is a simple yet strong open-vocabulary fine-grained hand action detection model. Open-FGHA consists of three novel components: (1) HiH-LoRA: A module specifically designed for limited heterogeneous data, enabling effective extraction of multimodal fine-grained features while maintaining model balance (see Section 3.2); (2) BSF Mechanism: Comprising a bidirectional selective cross-attention module and multiple fusion processes, this mechanism identifies the optimal matching between multimodal fine-grained features, reducing confusion between fine-grained categories (see Section 3.3); (3) CQG: A cross-modality decoder module that utilizes high-quality multimodal fine-grained features to generate enhanced cross-modal queries, further improving content representation and inter-modal correlation (see Section 3.4). The top indicates the whole pipeline, and the bottom describes each module.
 
-## :sparkles: Model Zoo
+
+
+## :sparkles: Data preparation
+The FHA-Kitchens OVD benchmark is reconstructed from the publicly available FHA-Kitchens benchmark. FHA-Kitchens OVD data can be downloaded [here](https://drive.google.com/drive/folders/1ZBD8GnhPt3kgWuyzrz_hTeOk4lZdNpGP?usp=drive_link) and the annotation files can be downloaded from [here](https://drive.google.com/drive/folders/1mgb1yq9uYEEMKcuUXQb99WGfQpM70Pnr?usp=drive_link)
+
+
 
 
 ## :blush: Statement
@@ -46,3 +51,18 @@ This project is for research purposes only. For further questions, please contac
 
 
 ## :pushpin: Citation
+@inproceedings{ijcai2025p276,
+  title     = {Open-Vocabulary Fine-Grained Hand Action Detection},
+  author    = {Zhe, Ting and Han, Mengya and Hao, Xiaoshuai and Luo, Yong and He, Zheng and Cai, Xiantao and Zhang, Jing},
+  booktitle = {Proceedings of the Thirty-Fourth International Joint Conference on
+               Artificial Intelligence, {IJCAI-25}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {James Kwok},
+  pages     = {2476--2484},
+  year      = {2025},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2025/276},
+  url       = {https://doi.org/10.24963/ijcai.2025/276},
+}
+
